@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Apply</title>
+</head>
+<body>
+    <header>
+        <h1 id="head1">EDGE: BU-CSE Digital Skills Training</h1>
+        <div id="div1">
+            <table id="tab1">
+                <tr>
+                    <th> <a href="index.html"><p style="text-align: center; color:white;">Announcement</p> </a> </th>
+                    <th> <a href="Offered.html"><p style="text-align: center; color:white;">Offered Course</p></a></th>
+                    <th> <a href="apply.html"><p style="text-align: center; color:white;">Applly Online</p></a></th>
+                </tr>
+            </table>
+
+        </div>
+    </header>
+    <br>
+    <br>
+    <div id="div2">
+        <form >
+            <h1>Application form</h1>
+            Application Name: <input type="text" placeholder="enter name" required><br><br>
+            Phone Number : <input type="contact" placeholder="enter no" required><br><br>
+            Email : <input type="email" placeholder="enter email" required><br><br>
+            <div id="big">
+                <span>Gender</span>
+                <input type="radio" id="male" name="gender" value="Male">
+                <label for="gender">Male</label>
+                <input type="radio" id="female" name="gender" value="Female">
+                <label for="gender">Female</label>
+            </div>
+            <br>
+            Date of Birth: <input type="date" placeholder="dob"><br><br>
+            Your Institute: <input type="text" placeholder="enter institute"><br><br>
+            <label for="Choosen Program"> Choosen Program:</label>
+        <select id="Choosen Program" name="Choosen Program">
+            <option value="Computer Fundamentals and Office Application"> Computer Fundamentals and Office Application </option>
+            <option value="Basic Networking"> Basic Networking </option>
+            <option value="Basic Web development"> Basic Web development </option>
+            <option value="Basic Programming and Python">Basic Programming and Python</option>
+            <option value="Database Managment">Database Managment</option>
+            <option value="Mobile Application development">Mobile Application development</option>
+        </select>
+        <br><br>
+        <p>Why you want to attend this course:</p> <textarea height="400px" width="500px"></textarea>
+        <br>
+        <button style="background-color: green;">Submit</button>
+        </form>
+    </div>
+</body>
+</html>

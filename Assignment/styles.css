@@ -1,0 +1,104 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+#about {
+    margin-left: 20px;
+    margin-right: 20px;
+}
+#skill {
+    margin-left: 20px;
+    margin-right: 20px;
+}
+#experience {
+    margin-left: 20px;
+    margin-right: 20px;
+}
+#edu {
+    margin-left: 20px;
+    margin-right: 20px;
+}
+#achieve {
+    margin-left: 20px;
+    margin-right: 20px;
+}
+#contact {
+    margin-left: 20px;
+    margin-right: 20px;
+}
+hr{
+   border-top: 1px solid black;
+}
+.info{
+    background-color:aqua;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    
+}
+.info img {
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    margin-top: 15px;
+}
+#navbar{
+    background-color:#51646e;
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    position: sticky;
+    top: 0;
+    overflow: hidden;
+    margin-bottom: 30px;
+}
+ a {
+ text-decoration: none;
+ color: #04181d;
+}
+ul{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+li {
+    background-color:#6fc0e0;
+    padding: 10px;
+    list-style-type: none;
+    
+}
+.ex-content{
+    background-color:#466780;
+    padding: 10px;  
+}
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+    padding: 10px;
+  }
+  th{
+    background-color: #ECE3F0;
+  }
+  input,textarea{
+    width: 100%;
+    padding: 5px;
+    background-color:#ECE3F0;
+    border: none;
+  }
+  button{
+    width: 100%;
+    padding: 5px;
+    background-color:#BBE7FE ;
+    border-radius: 5px;
+    border: none;
+  }
+footer{
+    background-color:#D3BBDD; 
+    text-align: center;
+    height: 20px;
+    padding: 10px;
+}

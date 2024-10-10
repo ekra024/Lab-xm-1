@@ -1,0 +1,32 @@
+body{
+    height: 700px;
+    width: 1200px;
+    margin: 20px 100px 20px 100px;
+    border: 2px black solid;
+    padding-left: 5px;
+    padding-right: 5px;
+    overflow: auto;
+}
+#head1{
+    text-align: center;
+    font-size: 50px;
+    background-color: aqua; 
+    color:black;
+}
+#div1{
+    background-color: black;
+    gap:0;
+    margin-top: 0;
+}
+#tab1{
+    width:1200px;
+    
+}
+#tab2{
+    width: 1200px;
+    height: 400px;
+}
+#div2{
+    text-align: center;
+    margin: auto;
+}
